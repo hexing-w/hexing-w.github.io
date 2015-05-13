@@ -205,7 +205,7 @@ footer{
 	margin-top: 80px;
 	background: #286df5;
 	display: none;
-	color: #aaa;
+	color: #fff;
 	text-align: center;
 
 	-webkit-box-shadow: 0 -2px 4px rgba(0,0,0,0.5);
@@ -213,7 +213,7 @@ footer{
 	-o-box-shadow: 0 -2px 4px rgba(0,0,0,0.5);
 	box-shadow: 0 -2px 4px rgba(0,0,0,0.5);
 }
-footer a:link {color: #aaa}		/* 未访问的链接 */
+footer a:link {color: #fff}		/* 未访问的链接 */
 footer a:visited {color: #fff}	/* 已访问的链接 */
 footer a:hover {color: #bbb;text-decoration: none;}	/* 鼠标移动到链接上 */
 footer a:active {color: #bbb}	/* 选定的链接 */
