@@ -56,8 +56,10 @@ nav{
 }
 .navbar-inverse{
 	background:#286df5;
-	border-color:#fff;
+       border-color:#fff;
 }
+.navbar-inverse .navbar-brandv  .navbar-text{
+	color:#fff;}
 
 .navbar-nav li{
 	width: 95px;
