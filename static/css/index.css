@@ -59,7 +59,7 @@ nav{
        border-color:#fff;
 }
 .navbar-inverse .navbar-brand  .navbar-text{
-	color:#fff;}
+	color:#fff !important;} 
 
 .navbar-nav li{
 	width: 95px;
