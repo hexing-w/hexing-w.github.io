@@ -61,7 +61,7 @@ nav{
        border-color:#fff;
 color:#fff;
 }
-.navbar-inverse .navbar-brand {
+.navbar-inverse,.navbar-brand,.navbar-text {
   color: #fff;
 }
 
