@@ -61,8 +61,11 @@ nav{
        border-color:#fff;
 color:#fff;
 }
-.navbar-inverse,.navbar-brand,.navbar-text {
+.navbar-inverse,.navbar-brand {
   color: #fff;
+}
+.navbar-inverse .navbar-text{
+	color:#fff;
 }
 
 .navbar-nav li{
