@@ -57,6 +57,7 @@ nav{
 .navbar-inverse{
 	background:#286df5;
        border-color:#fff;
+color:#fff;
 }
 .navbar-inverse .navbar-brand  .navbar-text{
 	color:#fff !important;} 
