@@ -54,6 +54,10 @@ nav{
 
 	border-radius: 0;
 }
+.navbar-inverse{
+	background:#286df5;
+}
+
 .navbar-nav li{
 	width: 95px;
 	text-align: center;
