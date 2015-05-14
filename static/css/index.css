@@ -13,7 +13,9 @@ pre{
 	padding: 0;
 	background: none;
 }
-
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+		background-color:#286df5;
+}
 pre code{
 	font-size: 14px;
 }
