@@ -64,8 +64,8 @@ color:#fff;
 .navbar-inverse,.navbar-brand {
   color: #fff;
 }
-.navbar-inverse .navbar-text{
-	color:#fff;
+.navbar-text{
+	color:#fff!important;
 }
 
 .navbar-nav li{
