@@ -2,18 +2,13 @@
 layout: post
 title:  "thinkphp中的关联表"
 date:   2015-05-12 22:06:05
-categories: Front-end
+categories: php
 excerpt: thinkphp。
 ---
 
 * content
 {:toc}
 
-
-
-## thinkphp中的关联表
-
-**任务：** [HTML、CSS基础](https://github.com/Gaohaoyang/ife/tree/master/task/task0001)   
 
 在复杂的关联操作中，如果要给关联定义增加可选的属性，我们可以采用完整定义的方式。
 完整定义的格式是：
