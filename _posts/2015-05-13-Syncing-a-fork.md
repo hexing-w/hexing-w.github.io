@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "同步一个 fork"
-date:   2015-04-12 15:14:54
+date:   2015-05-15 16:14:54
 categories: GitHub
 excerpt: fork 了之后同步，fork了别人的代码，保持远程同步。
 ---
