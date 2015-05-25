@@ -1,5 +1,5 @@
 # Site settings
-title: Small-tender
+title: hexing-w
 email: hx1074216264@126.com
 description: 小星的博客 
 # > # this means to ignore newlines until "baseurl:"
@@ -10,7 +10,7 @@ description: 小星的博客
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  Small-tender
+github_username:  hexing-w
 permalink: /:year/:month/:day/:title/
 
 # Build settings
