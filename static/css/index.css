@@ -16,6 +16,9 @@ pre{
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
 		background-color:#286df5;
 }
+.navbar-inverse .navbar-toggle {
+  border-color: #ffffff;
+}
 pre code{
 	font-size: 14px;
 }
