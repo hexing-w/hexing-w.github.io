@@ -31,9 +31,7 @@ excerpt: memcache 和memcached 的区别
 
 2. 把php_memcache.dll放到php的ext目录:
 <pre><code>
- 
-   例如：D:\WampServer\bin\php\php5.3.11\ext\php_memcache.dll
-
+例如:D:\WampServer\bin\php\php5.3.11\ext\php_memcache.dll
 </code></pre>
 
 3. 打开 php.ini 文件:
