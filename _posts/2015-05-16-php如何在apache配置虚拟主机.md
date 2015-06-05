@@ -14,16 +14,16 @@ excerpt: php 。
 ######第一步
 
 找到Apache的配置文件目录下的httpd.conf文件，找到下面这两行：
-
+<pre><code>
 \# Virtual hosts
 
-\#Include conf/extra/httpd-vhosts.conf
+\#Include conf/extra/httpd-vhosts.conf</code></pre>
 
 把它改成下面这样：
-
+<pre><code>
   \# Virtual hosts
 
-  Include conf/extra/httpd-vhosts.conf
+  Include conf/extra/httpd-vhosts.conf</code></pre>
 
 意思是启用虚拟主机的设置文件httpd-vhosts.conf，虚拟主机的设置都在这个文件下
 设置，不用去改httpd.conf,这样比较清晰。
@@ -32,28 +32,27 @@ excerpt: php 。
 ######第二步
 
 找到Apache的配置文件httpd.conf。然后按照下列步骤进行配置。
-
+<pre><code>
     LoadModule rewrite_module modules/mod_rewrite.so
-在apache配置文件里面找到这一行，把前面的注释#号去掉。  
-
-       
+    在apache配置文件里面找到这一行，把前面的注释#号去掉。  
       Options FollowSymLinks      
       AllowOverride None      
       Order deny,allow     
       Deny from all 
- 
+ </code></pre>
 然后再找到这一段代码，把Deny from all改成Allow from all。这样等一下虚拟主机访问就能正常运行了。
 
 ######第三步
 
 找到Apache的\conf\extra目录下的httpd-vhost.conf这个文件。
 添加：
-
+<pre><code>
 <VirtualHost 127.0.0.2:80>      
     DocumentRoot "E:/wamp/www/blog"     
     ServerName www.blog.com 
 
 <//VirtualHost>
+ </code></pre>
 
 其中：
 DocumentRoot "E:/wamp/www/blog"   这是你的虚拟主机的被授权的目录
