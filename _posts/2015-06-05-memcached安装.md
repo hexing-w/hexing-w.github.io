@@ -27,17 +27,22 @@ excerpt: memcache 和memcached 的区别
 ###  安装memcache的php扩展
 1. php_memcache.dll 下载：
 
-下载地址：php_memcache.zip                                                   http://www.2cto.com/uploadfile/2012/0713/20120713110240777.zip
+下载地址：[php_memcache.zip](http://www.2cto.com/uploadfile/2012/0713/20120713110240777.zip)                                              
 
 2. 把php_memcache.dll放到php的ext目录:
+<pre><code>
  
    例如：D:\WampServer\bin\php\php5.3.11\ext\php_memcache.dll
+
+</code></pre>
 
 3. 打开 php.ini 文件:
 我的php.ini的位置：D:\WampServer\bin\php\php5.3.11\php.ini
 
 4. 在 php.ini上增加一行:
+<pre><code>
 extension=php_memcache.dll
+</code></pre>
  
 5. 重启Wampserver的apache服务
 
@@ -48,18 +53,16 @@ extension=php_memcache.dll
  
 a. 下载最新版：http://blog.couchbase.com/memcached-windows-64-bit-pre-release-available
  
-b. 直接下载： memcached-win64-1.4.4-14.zip
-
-http://www.2cto.com/uploadfile/2012/0713/20120713110308123.zip
+b. 直接下载： [memcached-win64-1.4.4-14.zip](http://www.2cto.com/uploadfile/2012/0713/20120713110308123.zip)
 
 2. 解压放某个盘下面，比如:
- 
-D:\WampServer\bin\memcached\memcached.exe
+<pre><code>
+D:\WampServer\bin\memcached\memcached.exe </code></pre>
  
 3. 在终端（也即cmd命令界面）下输入以下命令安装windows服务:
- 
-D:\WampServer\bin\memcached>memcached.exe -d install
+ <pre><code>
+D:\WampServer\bin\memcached>memcached.exe -d install</code></pre>
  
 4. 再输入下面命令启动：
- 
-D:\WampServer\bin\memcached>memcached.exe -d start
+ <pre><code>
+D:\WampServer\bin\memcached>memcached.exe -d start</code></pre>
