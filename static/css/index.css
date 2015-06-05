@@ -23,7 +23,10 @@ pre{
   border-color: #ffffff;
 }
 navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #f19ec2;
+  background-color: yellow;
+}
+inverse .navbar-toggle:hover {
+  background-color: yellow;
 }
 pre code{
 	font-size: 14px;
