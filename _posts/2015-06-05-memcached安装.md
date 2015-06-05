@@ -64,3 +64,5 @@ D:\WampServer\bin\memcached>memcached.exe -d install</code></pre>
 4. 再输入下面命令启动：
  <pre><code>
 D:\WampServer\bin\memcached>memcached.exe -d start</code></pre>
+
+OK ~~nice !!!!!
