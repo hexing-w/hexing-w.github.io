@@ -56,7 +56,7 @@ icon: glyphicon-heart
 ---
 > #### 项目经验  
 
-* [美淘购物商城](http://182.92.186.7/tpshop/) <strong>(2015年4月) </strong>
+* 美淘购物商城 <strong>(2015年4月) </strong>
 
    基于Thinkphp框架开发。无限级分类前台展示，使用AJAX进行用户注册验证，ajax修改购物车功能，商品添加到购物车、收藏、关注、展示、以及下订单等功能。
 
