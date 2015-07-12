@@ -19,7 +19,7 @@ icon: glyphicon-heart
 
 > ### 联系我
 
-* email：hx1074216264@126.com
+* email：hx1074216264@126.com or hx1074216264@gmail.com
 * QQ   ：1074216264
 * 手机号：18229604155
 
@@ -28,7 +28,7 @@ icon: glyphicon-heart
 
 > ### IT技能  
 
-* 熟练掌握PHP的基本语法，熟练掌握PHP的基本函数，能够使用ThinkPHP、Yii框架进行项目开发， 熟悉PHP页面静态化机制。
+* 熟练掌握PHP的基本语法，熟练掌握PHP的基本函数，能够使用ThinkPHP进行项目开发、了解Yii框架， 熟悉PHP页面静态化机制。
 
 * 熟练掌握MVC模式开发
 
@@ -91,6 +91,10 @@ icon: glyphicon-heart
 * [湖南省教育后勤协会](http://www.hnjyhq.com/)<strong>(2015年3月) </strong>
    
   基于PHPCMS开发，湖南省教育后勤协会的企业网站，实现了后台管理员权限分配，栏目、内容的添加修改，前台展示相关内容、文章、实现站内搜索功能。
+
+* 常德聚会网 <strong>(2015年6月) </strong>
+
+ 基于PHPCMS开发，常德聚会的企业网站，实现了后台管理员权限分配，栏目、内容的添加修改，前台展示相关内容、文章等功能。
 
 
 
