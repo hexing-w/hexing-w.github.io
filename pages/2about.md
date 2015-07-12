@@ -19,7 +19,7 @@ icon: glyphicon-heart
 
 > ### 联系我
 
-* email：hx1074216264@126.com or hx1074216264@gmail.com
+* email：hx1074216264@126.com 
 * QQ   ：1074216264
 * 手机号：18229604155
 
