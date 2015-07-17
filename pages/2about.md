@@ -32,7 +32,7 @@ icon: glyphicon-heart
 
 * 熟练掌握MVC模式开发
 
-* 熟练掌握HTML+CSS，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。熟悉AJAX、DOM、XML和JSON。  
+* 了解HTML+CSS知识，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。熟悉AJAX、DOM、XML和JSON。  
 
 * 能熟练的使用SQL命令，熟悉MYSQL的优化。  
 
