@@ -1,9 +1,10 @@
-/**
+﻿/**
  * Reset some basic elements
  */
 /* commom */
 body {
-	background-image: url(../../css/pics/1.jpg);
+	background-image: url(http://i.imgur.com/N7ETzFO.jpg);
+        background-size:cover; 
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
 p{

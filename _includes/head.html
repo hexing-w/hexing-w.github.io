@@ -41,7 +41,23 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+        <script src="./rainyday.js"></script>
+        <script>
+            function run() {
+                var image = document.getElementById('background');
+                image.onload = function() {
+                    var engine = new RainyDay({
+                        image: this
+                    });
+                    engine.rain([ [1, 2, 8000] ]);
+                    engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
+                };
+                image.crossOrigin = 'anonymous';
+                image.src = 'http://i.imgur.com/N7ETzFO.jpg';
+            }
+        </script>
 
 
 
 </head>
+<canvas width="1366" height="1024" style="position: absolute; top: 0px; left: 0px;"></canvas>
