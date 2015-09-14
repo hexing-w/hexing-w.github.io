@@ -1,9 +1,11 @@
-/**
+﻿/**
  * Reset some basic elements
  */
 /* commom */
 body {
-	background-image: url(../../css/pics/1.jpg);
+        width:100%;height：100%
+	background-image: url(/css/pics/1.jpg);
+        background-size:100%; 
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
 p{
