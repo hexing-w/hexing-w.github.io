@@ -70,7 +70,7 @@ VC9是运行于 IIS 服务器上。
  extension=php_mongo.dll
 </code>
 </pre>
-![mongo](http://hexing-w.github.io/css/pics/mongo.png) 
+
 重启服务器
 
 通过浏览器访问phpinfo，如果安装成功，就会看到类型以下的信息:
