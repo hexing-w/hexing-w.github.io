@@ -48,7 +48,8 @@ exception: connect failed
 </code></pre>
 <font color="red">【attention：】需要把db文件夹下的mongod.lock 文件删除掉</font>
 
-ok~~~~接下来就是在php里面安装mongo扩展了
+
+ ok~~~~接下来就是在php里面安装mongo扩展了
 
 
 
@@ -72,7 +73,10 @@ VC9是运行于 IIS 服务器上。
 
 重启服务器
 
-通过浏览器访问phpinfo，如果安装成功，就会看到类型以下的信息：![mongo](http://hexing-w.github.io/css/pics/mongo.png) 
+通过浏览器访问phpinfo，如果安装成功，就会看到类型以下的信息:
+
+![mongo](http://hexing-w.github.io/css/pics/mongo.png) 
+
 
 OK ~~~nice,赶紧试试吧
 
