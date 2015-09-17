@@ -21,21 +21,22 @@ excerpt: mongodb
 <pre><code>
 　cd d:\mongodb\bin
 
-　d:\mongodb\bin>mongod --dbpath "d:\mongodb\db" --logpath "d:\mongosedb\log" --install 
+　d:\mongodb\bin>mongod --dbpath "d:\mongodb\db" --logpath "d:\mongodb\log" --install 
 --serviceName "mongodb"
 
 </code></pre>
-<font color="red">【attention】:一定要以管理员身份运行，不然，恭喜你进坑了</font>
+<font color="red">	  【attention】:一定要以管理员身份运行，不然，恭喜你进坑了</font>
+
 
 5.测试连接
 	输入以下命令,还是在bin目录下执行
 <pre><code>
  net start  mongodb
 </code></pre>
-如果出现以下
-###  cli环境界面，就说明测试成功啦
+如果出现以下以下界面，就代表我们已经装好了mongo服务
 
-![mongo](http://hexing-w.github.io/css/pics/mon.png)  
+![mongo](http://hexing-w.github.io/css/pics/mon.png) 
+
 
 如果出现以下语句报错
 <pre><code>
@@ -45,12 +46,14 @@ on: errno:10061 由于目标计算机积极拒绝，无法连接。
 127.0.0.1), connection attempt failed at src/mongo/shell/mongo.js:146
 exception: connect failed
 </code></pre>
-需要把db文件夹下的mongod.lock 文件删除掉
+<font color="red">【attention：】需要把db文件夹下的mongod.lock 文件删除掉</font>
 
 ok~~~~接下来就是在php里面安装mongo扩展了
 
 
+
 ### php 安装mongo 扩展
+
 
 Github上已经提供了用于window平台的预编译php [mongodb驱动二进制包](https://s3.amazonaws.com/drivers.mongodb.org/php/index.html)，你可以下载与你php对应的版本，但是你需要注意以下几点问题：
 
