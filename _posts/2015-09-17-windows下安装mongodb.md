@@ -72,7 +72,7 @@ VC9是运行于 IIS 服务器上。
 
 重启服务器
 
-	通过浏览器访问phpinfo，如果安装成功，就会看到类型以下的信息：
+通过浏览器访问phpinfo，如果安装成功，就会看到类型以下的信息：
 ![mongo](http://hexing-w.github.io/css/pics/mongo.png) 
 
 OK ~~~nice,赶紧试试吧
