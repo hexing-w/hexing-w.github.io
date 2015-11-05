@@ -1,10 +1,10 @@
-<!-- ---
+---
 layout: post
 title:  "php 在windows 下安装mongodb"
 date:   2015-09-17 13:41:54
 categories: go
 excerpt: go
---- -->
+---
 
 * content
 {:toc}
