@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "php 在windows 下安装golang"
+title:  "在windows 下安装golang"
 date:   2015-09-17 13:41:54
 categories: go
 excerpt: go
