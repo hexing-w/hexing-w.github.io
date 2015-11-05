@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "php 在windows 下安装mongodb"
+title:  "php 在windows 下安装golang"
 date:   2015-09-17 13:41:54
 categories: go
 excerpt: go
@@ -23,11 +23,11 @@ GOPATH即为项目开发路径，最好是将路径设置为安装路径下的sr
 <pre><code>
 package main  
 import(
- "fmt"
+  "fmt"
 )
 
  func main() {
- fmt.Println("Hello world ,welcome to golang ");
+  fmt.Println("Hello world ,welcome to golang ");
 }
 
 </code></pre>
