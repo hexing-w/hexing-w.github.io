@@ -17,7 +17,7 @@ GOPATH即为项目开发路径，最好是将路径设置为安装路径下的sr
 
 3.输入env查看变量是否设置成功
 
-![golang](http://hexing-w.github.io/css/pics/env.png) 
+![golang](http://hexing-w.github.io/css/pics/go.png) 
 
 4.ok 开启我们的hello world 之旅吧
 <pre><code>
