@@ -18,11 +18,11 @@ excerpt: mysql
 
   索引文件的扩展名是.MYI (MYIndex)。
 
-2. MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持
+2.MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持
 
-3. 如果执行大量的SELECT，MyISAM是更好的选择
+3.如果执行大量的SELECT，MyISAM是更好的选择
 
-4. 每表一个AUTO_INCREMEN列的内部处理。
+4.每表一个AUTO_INCREMEN列的内部处理。
 
   MyISAM为INSERT和UPDATE操作自动更新这一列。这使得AUTO_INCREMENT列更快（至少10%）。在序列顶的值被删除之后就不能再利用。(当AUTO_INCREMENT列被定义为多列索引的最后一列，可以出现重使用从序列顶部删除的值的情况）。
 
@@ -53,9 +53,7 @@ excerpt: mysql
 
   自动增长计数器仅被存储在主内存中，而不是存在磁盘上
 
-  关于该计算器的算法实现，请参考
-
-  AUTO_INCREMENT列在InnoDB里如何工作
+  关于该计算器的算法实现，请参考 AUTO_INCREMENT列在InnoDB里如何工作
 
 5. InnoDB 中不保存表的具体行数，也就是说，执行select count(*) from table时，InnoDB要扫描一遍整个表来计算有多少行
 
