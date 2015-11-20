@@ -10,7 +10,7 @@ excerpt: mysql
 {:toc}
 
 ### myisam
- 1. 每个MyISAM在磁盘上存储成三个文件。第一个文件的名字以表的名字开始，扩展名指出文件类型。
+1. 每个MyISAM在磁盘上存储成三个文件。第一个文件的名字以表的名字开始，扩展名指出文件类型。
 
   .frm文件存储表定义。
 
@@ -21,9 +21,9 @@ excerpt: mysql
 
 2. MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持
 
-3.如果执行大量的SELECT，MyISAM是更好的选择
+3. 如果执行大量的SELECT，MyISAM是更好的选择
 
-4.每表一个AUTO_INCREMEN列的内部处理。
+4. 每表一个AUTO_INCREMEN列的内部处理。
 
   MyISAM为INSERT和UPDATE操作自动更新这一列。这使得AUTO_INCREMENT列更快（至少10%）。在序列顶的值被删除之后就不能再利用。(当AUTO_INCREMENT列被定义为多列索引的最后一列，可以出现重使用从序列顶部删除的值的情况）。
 
@@ -33,25 +33,25 @@ excerpt: mysql
 
   更好和更快的auto_increment处理
 
-5.select count(*) from table,MyISAM只要简单的读出保存好的行数，注意的是，当count(*)语句包含   where条件时，两种表的操作是一样的
+5. select count(*) from table,MyISAM只要简单的读出保存好的行数，注意的是，当count(*)语句包含   where条件时，两种表的操作是一样的
 
-6.表锁
+6. 表锁
 
 ###innodb
 
-1.基于磁盘的资源是InnoDB表空间数据文件和它的日志文件，InnoDB 表的大小只受限于操作系统文件的大小，一般为 2GB
+1. 基于磁盘的资源是InnoDB表空间数据文件和它的日志文件，InnoDB 表的大小只受限于操作系统文件的大小，一般为 2GB
 
 
 2. InnoDB提供事务支持事务，外部键等高级数据库功能
 
-3.1).如果你的数据执行大量的INSERT或UPDATE，出于性能方面的考虑，应该使用InnoDB表
+3. 1).如果你的数据执行大量的INSERT或UPDATE，出于性能方面的考虑，应该使用InnoDB表
 
-  2).DELETE   FROM table时，InnoDB不会重新建立表，而是一行一行的删除。
+   2).DELETE   FROM table时，InnoDB不会重新建立表，而是一行一行的删除。
 
-  3).LOAD   TABLE FROM MASTER操作对InnoDB是不起作用的，解决方法是首先把InnoDB表改成MyISAM表，导入数据后再改成InnoDB表，但是对于使用的额外的InnoDB特性（例如外键）的表不适用
+   3).LOAD   TABLE FROM MASTER操作对InnoDB是不起作用的，解决方法是首先把InnoDB表改成MyISAM表，导入数据后再改成InnoDB表，但是对于使用的额外的InnoDB特性（例如外键）的表不适用
 
 
-4.如果你为一个表指定AUTO_INCREMENT列，在数据词典里的InnoDB表句柄包含一个名为自动增长计数器的计数器，它被用在为该列赋新值。
+4. 如果你为一个表指定AUTO_INCREMENT列，在数据词典里的InnoDB表句柄包含一个名为自动增长计数器的计数器，它被用在为该列赋新值。
 
   自动增长计数器仅被存储在主内存中，而不是存在磁盘上
 
@@ -60,7 +60,7 @@ excerpt: mysql
   AUTO_INCREMENT列在InnoDB里如何工作
 
 
-5.InnoDB 中不保存表的具体行数，也就是说，执行select count(*) from table时，InnoDB要扫描一遍整个表来计算有多少行
+5. InnoDB 中不保存表的具体行数，也就是说，执行select count(*) from table时，InnoDB要扫描一遍整个表来计算有多少行
 
 
 6. 提供行锁(locking on row level)，提供与 Oracle 类型一致的不加锁读取(non-locking read in
