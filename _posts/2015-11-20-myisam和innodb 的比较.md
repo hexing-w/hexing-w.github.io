@@ -19,7 +19,7 @@ excerpt: mysql
   索引文件的扩展名是.MYI (MYIndex)。
 
 
-2. MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持
+ 2. MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持
 
 3. 如果执行大量的SELECT，MyISAM是更好的选择
 
@@ -42,9 +42,9 @@ excerpt: mysql
 1. 基于磁盘的资源是InnoDB表空间数据文件和它的日志文件，InnoDB 表的大小只受限于操作系统文件的大小，一般为 2GB
 
 
-2. InnoDB提供事务支持事务，外部键等高级数据库功能
+ 2. InnoDB提供事务支持事务，外部键等高级数据库功能
 
-3. 1).如果你的数据执行大量的INSERT或UPDATE，出于性能方面的考虑，应该使用InnoDB表
+3    1).如果你的数据执行大量的INSERT或UPDATE，出于性能方面的考虑，应该使用InnoDB表
 
    2).DELETE   FROM table时，InnoDB不会重新建立表，而是一行一行的删除。
 
