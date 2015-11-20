@@ -9,7 +9,7 @@ excerpt: mysql
 * content
 {:toc}
 
-### myisam
+### <strong style="color:red">myisam</strong>
 
 1. 每个MyISAM在磁盘上存储成三个文件。第一个文件的名字以表的名字开始，扩展名指出文件类型。
 
@@ -37,25 +37,25 @@ excerpt: mysql
 
 - 表锁
 
-###innodb
+###<strong style="color:red">innodb</strong>
 
 
 1.基于磁盘的资源是InnoDB表空间数据文件和它的日志文件，InnoDB 表的大小只受限于操作系统文件的大小，一般为 2GB
 
-- InnoDB提供事务支持事务，外部键等高级数据库功能
+-InnoDB提供事务支持事务，外部键等高级数据库功能
 
-- 1)如果你的数据执行大量的INSERT或UPDATE，出于性能方面的考虑，应该使用InnoDB表
+-1)如果你的数据执行大量的INSERT或UPDATE，出于性能方面的考虑，应该使用InnoDB表
 
   2)DELETE   FROM table时，InnoDB不会重新建立表，而是一行一行的删除。
 
   3)LOAD   TABLE FROM MASTER操作对InnoDB是不起作用的，解决方法是首先把InnoDB表改成MyISAM表，导入数据后再改成InnoDB表，但是对于使用的额外的InnoDB特性（例如外键）的表不适用
 
-- 在数据词典里的InnoDB表句柄包含一个名为自动增长计数器的计数器，它被用在为该列赋新值。自动增长计数器仅被存储在主内存中，而不是存在磁盘上
+-在数据词典里的InnoDB表句柄包含一个名为自动增长计数器的计数器，它被用在为该列赋新值。自动增长计数器仅被存储在主内存中，而不是存在磁盘上
 关于该计算器的算法实现，请参考 AUTO_INCREMENT列在InnoDB里如何工作
 
-- InnoDB 中不保存表的具体行数，也就是说，执行select count(*) from table时，InnoDB要扫描一遍整个表来计算有多少行
+-InnoDB 中不保存表的具体行数，也就是说，执行select count(*) from table时，InnoDB要扫描一遍整个表来计算有多少行
 
-- 提供行锁(locking on row level)，提供与 Oracle 类型一致的不加锁读取(non-locking read in
+-提供行锁(locking on row level)，提供与 Oracle 类型一致的不加锁读取(non-locking read in
    SELECTs)，另外，InnoDB表的行锁也不是绝对的，如果在执行一个SQL语句时MySQL不能确定要扫描的范围，InnoDB表同样会锁全表，例如update table set num=1 where name like “%aaa%”
 
 
