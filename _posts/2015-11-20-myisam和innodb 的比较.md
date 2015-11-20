@@ -18,7 +18,6 @@ excerpt: mysql
 
   索引文件的扩展名是.MYI (MYIndex)。
 
-
 2. MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持
 
 3. 如果执行大量的SELECT，MyISAM是更好的选择
@@ -58,9 +57,7 @@ excerpt: mysql
 
   AUTO_INCREMENT列在InnoDB里如何工作
 
-
 5. InnoDB 中不保存表的具体行数，也就是说，执行select count(*) from table时，InnoDB要扫描一遍整个表来计算有多少行
-
 
 6. 提供行锁(locking on row level)，提供与 Oracle 类型一致的不加锁读取(non-locking read in
    SELECTs)，另外，InnoDB表的行锁也不是绝对的，如果在执行一个SQL语句时MySQL不能确定要扫描的范围，InnoDB表同样会锁全表，例如update table set num=1 where name like “%aaa%”
