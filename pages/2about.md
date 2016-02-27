@@ -7,7 +7,7 @@ icon: glyphicon-heart
 
 > ### 关于我
 
- 2015年我将步入找工作的大潮，希望做一个<strong style="color:red;">php开发工程师</strong>。   
+ 2016年我将步入找工作的大潮，希望做一个<strong style="color:red;">php开发工程师</strong>。   
 
    在校大学生，就读于湖南文理学院计算机科学与技术专业，2016年毕业。   
 
@@ -61,7 +61,7 @@ icon: glyphicon-heart
    基于Thinkphp框架开发。无限级分类前台展示，使用AJAX进行用户注册验证，ajax修改购物车功能，商品添加到购物车、收藏、关注、展示、以及下订单等功能。
 
 
-* 一个小型博客<strong>(2014年5月) </strong>
+* [一个小型博客](http://2.dhvjfh.sinaapp.com/)<strong>(2014年5月) </strong>
 
      项目描述：基于ThinkPHP框架开发。手写前端页面，实现动态生成导航栏，缓存首页、栏目列表页面、内容页等缓存功能。基于浏览量的    热门、最新博文排序等显示功能。后台文章熟悉功能，无限级分类、RBAC权限、文章添加修改功能等
 
