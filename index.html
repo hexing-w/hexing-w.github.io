@@ -43,7 +43,7 @@ layout: default
         {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
         {% endif %}
-        <span class="page_number" style="margin-left:30px;" >共{{paginator.total_pages}}页</span>
+        <span class="page_number" style="margin-left:30px;color: #669" >共{{paginator.total_pages}}页</span>
               {% endif %}
               
       </div>
