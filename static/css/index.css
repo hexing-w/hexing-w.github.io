@@ -102,6 +102,25 @@ color:#fff;
 	font-size: 30px;
 	font-weight: bold;
 }
+.post-list-item:hover{
+	background-color: rgba(0,0,6,0.05);
+	
+}
+
+.paginator{
+	border-top:1px solid #ddd;
+	text-align: center;
+	padding: 15px 20px;
+}
+.paginator a{
+	/*display: inline-block;*/
+	margin: 0 12px;
+}
+.paginator .active{
+	margin: 0 12px;
+	color:#2E2435;
+	font-weight: bold;
+}
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
