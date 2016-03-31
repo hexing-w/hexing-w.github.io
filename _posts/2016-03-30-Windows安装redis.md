@@ -27,7 +27,9 @@ Redis 是一个高性能的key-value数据库。 redis的出现，很大程度�
 这样，Redis windows环境下搭建已经完成
 ![redis_server](http://hexing-w.github.io/css/pics/redis_server.jpg)
 
-这样，Redis windows环境下搭建已经完成![redis_start](http://hexing-w.github.io/css/pics/redis_start.jpg)
+这样，Redis windows环境下搭建已经完成
+
+![redis_start](http://hexing-w.github.io/css/pics/redis_start.jpg)
 
 正确输出 hell word，测试成功！
 
