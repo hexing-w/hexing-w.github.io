@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows下安装redis
+title: "Windows下安装redis"
 date: 2016-03-30 23:31:23
 categories: php
 excerpt: php
