@@ -71,6 +71,8 @@ extension=php_redis.dll
 
 别说话，让我哭会儿....宝宝心里苦，但宝宝还是说了。
 
+[redis](http://www.cnblogs.com/ikodota/archive/2012/03/05/php_redis_cn.html)的一些用法
+
 原文出处： http://www.cnblogs.com/yun007/p/3705353.html
 
 
