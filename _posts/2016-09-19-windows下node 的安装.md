@@ -24,7 +24,8 @@ excerpt: js
 
 用cmd打开我们的windows命令界面，键入命令 cd d:\node
 
-#####安装相关组件
+##### 安装相关组件
+
 键入命令：npm install express 安装express。。。。
 
 键入命令：npm install jade 安装jade。。。
@@ -66,15 +67,14 @@ npm config set cache "d:\node\cache" (先建好cache目录)
 环境搭建到此完工，下面做一个demo测试！
 
 在myapp里创建一个hello.js 内容：
-<pre>
-var http=require("http");
-http.createServer(function(request,response){
-	response.writeHead(200,{"Content-Type":"text/plain"});
-	response.write("hello world");
-	response.end();
-}).listen(8888);
-
-console.log("nodejs start listen 8888 port");
+		
+		var http=require("http");
+		http.createServer(function(request,response){
+			response.writeHead(200,{"Content-Type":"text/plain"});
+			response.write("hello world");
+			response.end();
+		}).listen(8888);
+		console.log("nodejs start listen 8888 port");
 
 进入命令窗口 进入d:\node\myapp目录
 
