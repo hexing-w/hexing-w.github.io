@@ -79,9 +79,11 @@ npm config set cache "d:\node\cache" (先建好cache目录)
 进入命令窗口 进入d:\node\myapp目录
 
 键入node hello.js
+
 ![helo-world](http://hexing-w.github.io/css/pics/hello-world.png)
 
 打开地址http://127.0.0.1:8888/
 
 发现输出 :
+
 ![node-hello](http://hexing-w.github.io/css/pics/node-hello.png)
