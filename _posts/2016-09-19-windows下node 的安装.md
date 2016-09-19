@@ -9,8 +9,6 @@ excerpt: js
 * content
 {:toc}
 
-其实我安装Node 环境 是想去了解一下hexo滴。。先默默安装环境吧
-
 ### node下载 [node官网地址](http://nodejs.org/)
 
 根据自己的电脑下载相应的系统安装程序，我电脑是win7 64 位的,故选择了64位的msi，下载完成后，双击msi，开始默认安装nodejs，这里我们可以修改默认的安装目录。
