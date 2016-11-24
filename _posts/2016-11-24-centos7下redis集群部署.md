@@ -1,4 +1,4 @@
-搞得---
+---
 layout: post
 title: "redis-cluster集群部署"
 date: 2016-11-24 14:53:23
