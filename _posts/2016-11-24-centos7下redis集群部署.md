@@ -84,3 +84,5 @@ vim  /home/redis-cluster/9000/redis.conf
 
 好啦 redis集群即搭建成功
 ![redis-cluster-connect](http://hexing-w.github.io/css/pics/redis-cluster-connect.png)
+
+参考文章：http://f.dataguru.cn/thread-532250-1-1.html
