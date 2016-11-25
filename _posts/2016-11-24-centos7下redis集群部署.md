@@ -48,6 +48,7 @@ vim  /home/redis-cluster/9000/redis.conf
 	/redis-3.2.3/src/redis-server /home/redis-cluster/9003/redis.conf
     /redis-3.2.3/src/redis-server /home/redis-cluster/9004/redis.conf
 	/redis-3.2.3/src/redis-server /home/redis-cluster/9005/redis.conf
+
 启动之后使用命令查看redis的启动情况ps -ef|grep redis
 如下图则说明成功
 ![redis-cluster](http://hexing-w.github.io/css/pics/redis-cluster.png)
