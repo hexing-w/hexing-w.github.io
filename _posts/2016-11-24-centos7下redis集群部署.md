@@ -22,14 +22,14 @@ excerpt: redis
 
 6:make test 
 
-###创建集群所需要的目录
+### 创建集群所需要的目录
 	mkdir  /home/redis-cluster/{9000,9001,9002,9003,9004,9005}
 	cp  ~/redis-3.2.3/redis.conf  /home/redis-cluster/9000
 	..
 	..
 	cp  ~/redis-3.2.3/redis.conf  /home/redis-cluster/9005
 
-###修改配置文件redis.conf
+### 修改配置文件redis.conf
 vim  /home/redis-cluster/9000/redis.conf
 
 	daemonize yes
@@ -41,7 +41,7 @@ vim  /home/redis-cluster/9000/redis.conf
 
 <font color="red" ><b>注意：拷贝之后的redis.conf要修改对应9001/9002/9003/9004/9005目录下面redis.conf文件中的port参数</b></font>  
 
-###分别启动这6个redis实例
+### 分别启动这6个redis实例
 
 	/redis-3.2.3/src/redis-server /home/redis-cluster/9001/redis.conf
     /redis-3.2.3/src/redis-server /home/redis-cluster/9002/redis.conf
@@ -52,7 +52,7 @@ vim  /home/redis-cluster/9000/redis.conf
 如下图则说明成功
 ![redis-cluster](http://hexing-w.github.io/css/pics/redis-cluster.png)
 
-###执行redis的创建集群命令创建集群
+### 执行redis的创建集群命令创建集群
 /redis-3.2.3/src/redis-trib.rb create --replicas 1 192.168.59.132:9000 192.168.59.132:9001 192.168.59.132:9002 192.168.59.132:9003 192.168.59.132:9004 192.168.59.132:9005
 
 执行上面的命令的时候会报错，因为是执行的ruby的脚本，需要ruby的环境
