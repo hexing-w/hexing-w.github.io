@@ -56,7 +56,7 @@ ok~~~~接下来就是在php里面安装mongo扩展了
 ### php 安装mongo 扩展
 
 
-Github上已经提供了用于window平台的预编译php [mongodb驱动二进制包](https://s3.amazonaws.com/drivers.mongodb.org/php/index.html)，你可以下载与你php对应的版本，但是你需要注意以下几点问题：
+Github上已经提供了用于window平台的预编译php [mongodb](https://github.com/mongodb/mongo-php-driver/downloads)，你可以下载与你php对应的版本，但是你需要注意以下几点问题：
 
 VC6 是运行于 Apache 服务器
 'Thread safe'（线程安全）是运行在Apache上以模块的PHP上，如果你以CGI的模式运行PHP，请选择非线程安全模式（' non-thread safe'）。
@@ -71,13 +71,27 @@ VC9是运行于 IIS 服务器上。
 </code>
 </pre>
 
+<font color="red">【注:】   以前的版本是mongo.so 和mongo.dll，老的php-mongo.api
+
+在php7已经不支持了，至少目前不支持
+
+最新支持php7的mongodb编译后 仅支持新版API（mongodb>2.6.x版本）
+
+</font>
+
 重启服务器
 
 通过浏览器访问phpinfo，如果安装成功，就会看到类型以下的信息:
 
+<font color="red">(php5.6版本安装的Mongodb扩展)</font>
+
 ![mongo](http://hexing-w.github.io/css/pics/mongo.png) 
 
+<font color="red">(php7版本安装的Mongodb扩展)</font>
 
+![mongo](http://hexing-w.github.io/css/pics/mongodb.png) 
+
+当然咯 连接sql的方式也不一样啦，憋方，我们可以看看[官网手册](http://www.php.net/manual/en/class.mongodb.php)
 OK ~~~nice,赶紧试试吧
 
 
