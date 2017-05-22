@@ -15,7 +15,7 @@ icon: glyphicon-heart
 
 > ### 联系我
 
-* email：[hx1074216264@126.com](mailto:hx1074216264@126.com) or [hx1074216264@gmail.com](mailto:hx1074216264@gmail.com)
+* email：[hx1074216264@gmail.com](mailto:hx1074216264@gmail.com)
 * QQ   ：1074216264
 * 手机号：18229604155
 
@@ -30,7 +30,7 @@ icon: glyphicon-heart
 
 * 了解HTML+CSS知识，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。熟悉AJAX、DOM、XML和JSON。  
 
-* 能熟练的使用SQL命令，熟悉MYSQL的优化,熟悉了解memcache。  
+* 能熟练的使用SQL命令，熟悉MYSQL的优化,熟悉了解memcache,redis，kafka。  
 
 * 熟悉Linux的常用命令，熟悉Apache的基本配置。
 
@@ -42,7 +42,7 @@ icon: glyphicon-heart
 
 ---
 
-> #### 实习经历    
+> #### 实习&&工作经历    
 
 ### 新浪秒车（2015.8--------2016.1）  
 
@@ -51,6 +51,10 @@ icon: glyphicon-heart
 ### 新叶网络工作室（2016.1--2016.7）  
 
 担任工作室网站PHP开发工程师，负责网站项目后台PHP开发，开发中与设计、前端工作人员保持良好而有效的沟通。同时也是工作室负责人，负责项目中的洽谈部门。
+
+### 纳米娱乐(2016.8---至今）
+
+ 担任php开发工程师，负责微微星球游戏项目的相关开发，参与微微星球项目的大数据对接，gm工具，任务系统，VIP系统，碎片活动系统，商城系统，签到系统，宠物系统相关开发。
 
 
 ---
