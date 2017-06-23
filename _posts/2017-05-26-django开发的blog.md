@@ -154,7 +154,7 @@ url路由,每个路由规则对应一个view中的函数
 		return render(request,'details.html',ctx)
 
 index模板页面
-
+<pre>
 	  <html>
 	       <style type="text/css">
 	         body{color:#669;background:#fff;padding:0 5em;margin:0}
@@ -197,7 +197,7 @@ index模板页面
 	{% endfor %}
 	 </body>
 	 </html>
-
+</pre>
 
 ####启动服务
 
