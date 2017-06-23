@@ -175,7 +175,7 @@ index模板页面
 	        .info {height:20px;line-height:20px;text-align:center;}
 	/*        .info span {float:left;text-align:center;}*/
 	       </style>
-		 <body>
+	/*	 <body>
 		 <header>
 		 <h1>Little Star Star</h1>
 		 <span>---------只要我努力没什么是我搞不砸的</span>
@@ -197,9 +197,10 @@ index模板页面
 	{% endfor %}
 	 </body>
 	 </html>
+	 */
 </pre>
 
-####启动服务
+#### 启动服务
 
 python manage.py runserver 端口号
 
