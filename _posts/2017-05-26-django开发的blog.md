@@ -175,11 +175,11 @@ index模板页面
 	        .info {height:20px;line-height:20px;text-align:center;}
 	/*        .info span {float:left;text-align:center;}*/
 	       </style>
-	 <body>
-	 <header>
-	 <h1>Little Star Star</h1>
-	 <span>---------只要我努力没什么是我搞不砸的</span>
-	</header>
+		 <body>
+		 <header>
+		 <h1>Little Star Star</h1>
+		 <span>---------只要我努力没什么是我搞不砸的</span>
+		</header>
 	{% for list in blog %}
 	<div class='blog'>
 		<div class = 'title'>
