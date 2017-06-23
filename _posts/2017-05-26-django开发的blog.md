@@ -154,50 +154,8 @@ url路由,每个路由规则对应一个view中的函数
 		return render(request,'details.html',ctx)
 
 index模板页面
-<pre>
-	  <html>
-	       <style type="text/css">
-	         body{color:#669;background:#fff;padding:0 5em;margin:0}
-	         h1{padding:1em 1em;background:}
-	         h2{color:#9AFF9A;margin-top:2em;text-align:center;}
-	         header span {display:block;text-align:center;}
-	         p{margin:1em 0}
-	         a{ text-decoration:none; } 
-	         .blog{
-	            padding:20px 0px;
-	        }
-	        .blog .info span {
-	            padding-right: 10px;
-	        }
-	        .blog .summary {
-	            padding-top:20px;
-	        }
-	        .info {height:20px;line-height:20px;text-align:center;}
-	/*        .info span {float:left;text-align:center;}*/
-	       </style>
-		 <body>
-		 <header>
-		 <h1>Little Star Star</h1>
-		 <span>---------只要我努力没什么是我搞不砸的</span>
-		</header>
-	{% for list in blog %}
-	<div class='blog'>
-		<div class = 'title'>
-			<a href="{% url 'blog_detail' list.id %}"><h2>{{ list.title }}</h2></a>
-		</div>
-		<div class='info'>
-			<span >分类：{{list.category}}</span>
-			<span >作者：{{list.author}}</span>
-			<span >发布时间：{{list.time}}</span>
-		</div>
-		<div class="summary">
-			{{list.content | truncatechars:100}}
-		</div>
-	</div>
-	{% endfor %}
-	 </body>
-	 </html>
-</pre>
+
+![html](http://hexing-w.github.io/css/pics/html.png)
 
 ####启动服务
 
