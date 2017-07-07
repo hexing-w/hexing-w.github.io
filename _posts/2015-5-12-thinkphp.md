@@ -2,7 +2,7 @@
 layout: post
 title:  "thinkphp中的关联表"
 date:   2015-05-12 22:06:05
-categories: thinkphp
+categories: php
 excerpt: thinkphp。
 ---
 
