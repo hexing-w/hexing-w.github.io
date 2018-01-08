@@ -24,7 +24,7 @@ icon: glyphicon-heart
 
 > ### IT技能  
 
-* 熟练掌握PHP的基本语法，熟练掌握PHP的基本函数，能够使用ThinkPHP进行项目开发、了解Yii框架，了解Yaf框架 熟悉PHP页面静态化机制。
+* 熟练掌握PHP的基本语法，熟练掌握PHP的基本函数，能够使用ThinkPHP，Yii进行项目开发、了解Yaf框架 熟悉PHP页面静态化机制。
 
 * 熟练掌握MVC模式开发
 
@@ -36,7 +36,7 @@ icon: glyphicon-heart
 
 * 熟悉oop以及单例模式和工厂模式，能熟练的使用PHPCMS等进行建站
 
-* 熟练使用 Svn/Git 版本控制工具，熟悉markdown 语法。
+* 熟练使用 Svn/Git 版本控制工具，熟悉markdown 语法。熟悉了解python，locust 
 
 
 
@@ -55,8 +55,8 @@ icon: glyphicon-heart
 ### 纳米娱乐(2016.8---至今）
 
  担任php开发工程师，负责微微星球游戏项目的相关开发，参与微微星球项目的大数据对接，gm工具，任务系统，VIP系统，碎片活动系统，商城系统，签到系统，宠物系统相关开发。
- 
-
+ 负责徽州下岗游，淳安麻将，桐庐麻将棋牌开发（python开发），
+ 负责娃娃机的gm后台功能开发
 
 ---
 > #### 项目经验  
