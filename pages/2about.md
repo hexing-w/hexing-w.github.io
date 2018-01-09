@@ -56,6 +56,7 @@ icon: glyphicon-heart
 
  担任php开发工程师，负责微微星球游戏项目的相关开发，参与微微星球项目的大数据对接，gm工具，任务系统，VIP系统，碎片活动系统，商城系统，签到系统，宠物系统相关开发。业务架构图如下
 ![ssgame](http://hexing-w.github.io/css/pics/weiwei.png)
+
  负责徽州下岗游，淳安麻将，桐庐麻将棋牌开发（python开发），
  负责娃娃机的gm后台功能开发
 
