@@ -24,19 +24,19 @@ icon: glyphicon-heart
 
 > ### IT技能  
 
-* 熟练掌握PHP的基本语法，熟练掌握PHP的基本函数，能够使用ThinkPHP，Yii进行项目开发、了解Yaf框架 熟悉PHP页面静态化机制。
+* 熟练掌握PHP的基本语法，PHP的基本函数，能够使用ThinkPHP，Yii进行项目开发、了解Yaf框架 熟悉PHP页面静态化机制。
 
 * 熟练掌握MVC模式开发
 
 * 了解HTML+CSS知识，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。熟悉AJAX、DOM、XML和JSON。  
 
-* 能熟练的使用SQL命令，熟悉MYSQL的优化,熟悉了解memcache,redis，kafka。  
+* 能熟练的使用SQL命令，熟悉MYSQL的优化,熟悉memcache,redis，kafka以及locust的使用
 
-* 熟悉Linux的常用命令，熟悉Apache的基本配置。
+* 熟悉Linux的常用命令，Apache的基本配置。
 
-* 熟悉oop以及单例模式和工厂模式，能熟练的使用PHPCMS等进行建站
+* 熟悉oop以及单例模式和工厂模式
 
-* 熟练使用 Svn/Git 版本控制工具，熟悉markdown 语法。熟悉了解python，locust 
+* 熟练使用 Svn/Git 版本控制工具，熟悉markdown 语法。熟悉了解python
 
 
 
