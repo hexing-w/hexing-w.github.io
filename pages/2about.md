@@ -26,6 +26,8 @@ icon: glyphicon-heart
 
 * 熟练掌握PHP的基本语法，会搭建lamp,lnmp环境，能够使用ThinkPHP，Yii框架进行项目开发、了解Yaf框架
 
+* 熟悉了解python以及locust使用 
+
 * 熟悉oop编程以及了解单例、工厂设计模式
 
 * 了解HTML+CSS知识，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。熟悉AJAX、DOM、XML和JSON 
@@ -37,7 +39,6 @@ icon: glyphicon-heart
 * 熟悉Linux的常用命令，熟悉Apache，nginx的基本配置
 
 * 熟悉使用git、svn 熟悉markdown语法
-
 
 
 ---
@@ -54,10 +55,7 @@ icon: glyphicon-heart
 负责徽州下岗游，淳安麻将，桐庐麻将棋牌开发（python开发），相关分数计算，以及抓牌出牌的相关状态和胡牌牌型和胡牌算法等业务逻辑。
 
 负责娃娃机的gm后台功能开发（Yii2），娃娃机管理，娃娃管理，权限分配，用户数据导出excel，多图上传，提货管理，玩家管理等相关功能
-
-
- 负责徽州下岗游，淳安麻将，桐庐麻将棋牌开发（python开发），
- 负责娃娃机的gm后台功能开发   
+ 
 
 ### 新浪秒车（2015.8--------2016.1）  
 
