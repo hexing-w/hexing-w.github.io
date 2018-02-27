@@ -24,7 +24,7 @@ icon: glyphicon-heart
 
 > ### IT技能  
 
-* 熟练掌握PHP的基本语法，会搭建lamp,lnmp环境，能够使用ThinkPHP，Yii框架进行项目开发、了解Yaf框架
+* 熟练掌握PHP的基本语法，熟悉lamp,lnmp环境，能够使用ThinkPHP，Yii框架进行项目开发、了解Yaf框架
 
 * 熟悉了解python以及locust使用 
 
@@ -50,7 +50,7 @@ icon: glyphicon-heart
 
  担任php开发工程师，负责微微星球游戏项目的相关开发，参与微微星球项目的大数据对接，gm工具，任务系统，VIP系统，碎片活动系统，商城系统，签到系统，宠物系统相关开发。熟悉微微星球游戏架构
 
- ![ssgame](http://hexing-w.github.io/css/pics/weiwei.png)
+ ![ssgame](http://hexing-w.github.io/css/pics/weiwei.pngs)
 
 负责徽州下岗游，淳安麻将，桐庐麻将棋牌开发（python开发），相关分数计算，以及抓牌出牌的相关状态和胡牌牌型和胡牌算法等业务逻辑。
 
