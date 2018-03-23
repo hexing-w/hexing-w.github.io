@@ -10,7 +10,9 @@ excerpt: python
 {:toc}
 
 
-在安装scrapy时出现报错     error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": http://landinghub.visualstudio.com/visual-app-build-tools 
+在安装scrapy时出现报错，如图所示：
+
+![pyc.png](http://hexing-w.github.io/css/pics/pyc.png)
 
 通过提示我们可以得知是由于c++依赖库不存在，所以在对包进行编译的时候出错，故我们可以去直接下载二进制安装包进行安装。跟着地址进去提示下载build-tools 
 
