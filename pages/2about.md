@@ -24,29 +24,34 @@ icon: glyphicon-heart
 
 > ### IT技能  
 
-* 熟练掌握PHP的基本语法，熟悉lamp,lnmp环境，能够使用ThinkPHP，Yii框架进行项目开发、了解Yaf框架
+* 熟练掌握PHP的基本语法，能够使用ThinkPHP，laravel,Yii框架进行项目开发、了解Yaf框架。掌握mvc架构。能够熟练编写web应用。
 
-* 熟悉了解python以及locust使用 
+* 熟悉oop编程以及了解单例、工厂设计模式。
 
-* 熟悉oop编程以及了解单例、工厂设计模式
+* 熟悉了解memcache、redis等缓存中间件使用、kafka消息队列、mongodb的使用。
 
-* 了解HTML+CSS知识，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。熟悉AJAX、DOM、XML和JSON 
-
-* 熟悉了解memcache,redis,kafka,mongodb的使用
-
-* 能熟练的使用SQL命令，熟悉MYSQL的优化
+* 能熟练的使用SQL命令，熟悉MYSQL的优化，如分库分表，读写分离
 
 * 熟悉Linux的常用命令，熟悉Apache，nginx的基本配置
 
-* 熟悉使用git、svn 熟悉markdown语法
+* 了解HTML+CSS知识，能编写兼容主流浏览器的前端代码，能运用JS和jQuery等编写简单的网页效果。
+
+* 熟悉了解python以及locust使用。
+
+* 熟悉使用git、svn，熟悉markdown语法
+
+* Github地址：https://github.com/hexing-w
 
 
 ---
 
 > #### 实习&&工作经历 
 
+### 心会科技（2018.3---至今）
 
-### 纳米娱乐(2016.8---至今）
+担任php开发工程师，负责娃娃机项目的个人中心，个人中心2.0重构，娃娃机特价商城，点赞活动，比赛活动，库存管理,后台数据分析，h5试玩券，哆哆游戏的游戏任务礼盒、兑换码、消息系统、个人中心，微信红包提现功能，小程序红包答题，抓娃娃小游戏。
+
+### 纳米娱乐(2016.8---2018.2）
 
  担任php开发工程师，负责微微星球游戏项目的相关开发，参与微微星球项目的大数据对接，gm工具，任务系统，VIP系统，碎片活动系统，商城系统，签到系统，宠物系统相关开发。熟悉微微星球游戏架构
 
@@ -101,7 +106,8 @@ icon: glyphicon-heart
    
    基于PHPCMS开发，常德聚会的企业网站，实现了后台管理员权限分配，栏目、内容的添加修改，前台展示相关内容、文章等功能。
 
-
+* [星星看书](http://m.book.pakchoi.top/)<strong>(2016年5月) </strong>
+	小说网站，二次开发成品，目前还在线上。
 
 > #### 奖项/证书
 
