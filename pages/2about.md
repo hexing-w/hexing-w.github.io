@@ -73,7 +73,7 @@ icon: glyphicon-heart
 
 
 ---
-> #### 项目经验  
+> #### 其他项目经验  
 
 * [文章分类管理](http://2.xyresume.applinzi.com) <strong>(2016年5月) </strong>
 
