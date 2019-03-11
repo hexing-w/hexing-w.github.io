@@ -19,7 +19,7 @@ excerpt: docker
 
 	docker pull nginx
 
-2. 准备好本地配置文件
+2.准备好本地配置文件
 
 在本地准备好nginx的配置文件，运行nginx的时候需要用
 	
