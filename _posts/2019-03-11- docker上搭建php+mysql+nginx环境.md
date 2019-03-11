@@ -118,6 +118,7 @@ excerpt: docker
 1.查看服务
 
 	docker ps 
+	
 ![docker-ps](http://hexing-w.github.io/css/pics/docker-ps.png)
 
 STATUS 皆为up,即运行中 
