@@ -2,8 +2,8 @@
 layout: post
 title: "centos7上安装docker"
 date: 2018-12-13 14:14:13
-categories: php 
-excerpt: php
+categories: docker 
+excerpt: docker
 ---
 
 * content
