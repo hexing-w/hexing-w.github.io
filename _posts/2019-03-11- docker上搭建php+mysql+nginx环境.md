@@ -15,7 +15,7 @@ excerpt: docker
 
 ### 安装nginx 
 
-1. 安装
+1.安装
 
 	docker pull nginx
 
@@ -57,7 +57,7 @@ excerpt: docker
         deny  all;
     }
 }
-3. 运行nginx
+3.运行nginx
 
 	docker run -d 
     -p 8081:80  
@@ -78,12 +78,12 @@ excerpt: docker
 
 ### 安装php 
 
-1. 安装
+1.安装
 
 	docker pull php:7.0-fpm
 
 
-2. 运行php
+2.运行php
 
 	docker run -d 
     -v /var/nginx/www/html:/var/www/html 
@@ -93,16 +93,16 @@ excerpt: docker
 
 应用程序的本地地址在/var/nginx/www/html文件夹，在/var/nginx/www/phpfile   里边新建  php.ini 文件
 
-3. 安装php扩展
+3.安装php扩展
 
-先进入容器： docker exec -it 743ec9a86f68 bash 
-	
+	docker exec -it 743ec9a86f68 bash 
 	docker-php-ext-install pdo_mysql
 	docker-php-ext-install redis
 
 ### 安装mysql 
 
-1. 安装
+1.安装
+
 	docker pull mysql:5.7.17
 
 2.运行
@@ -115,7 +115,7 @@ excerpt: docker
 
 ### 测试
 
-1. 查看服务
+1.查看服务
 
 	docker ps 
 ![docker-ps](http://hexing-w.github.io/css/pics/docker-ps.png)
