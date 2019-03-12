@@ -57,12 +57,15 @@ excerpt: docker
         deny  all;
     }
 }
+
+
 3.运行nginx
 
 	docker run -d 
     -p 8081:80  
     -v /var/nginx/www/html:/var/www/html  
-    -v /var/www/nginx/conf.d:/etc/nginx/conf.d     
+    -v /var/www/nginx/conf.d:/etc/nginx/conf.d  
+    --link codeforphp_phpfpm:phpfpm   
     --name codeforphp_nginx 
     nginx
 
@@ -75,6 +78,8 @@ excerpt: docker
 -v 配置文件夹
 
 -d 后台运行
+
+–link 与另外一个容器建立起联系，这样我们就可以在当前容器中去使用另一个容器里的服务。与另外一个容器建立起联系，这样我们就可以在当前容器中去使用另一个容器里的服务。   
 
 ### 安装php 
 
