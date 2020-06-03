@@ -21,7 +21,7 @@ excerpt: Elasticsearch
 
 ### mapping说明
 
-ES的mapping非常类似于静态语言中的数据类型：声明一个变量为int类型的变量， 以后这个变量都只能存储int类型的数据。同样的， 一个number类型的mapping字段只能存储number类型的数据。
+docker安装的版本ES、kibana版本均是7.5.1. ES的mapping非常类似于静态语言中的数据类型：声明一个变量为int类型的变量， 以后这个变量都只能存储int类型的数据。同样的， 一个number类型的mapping字段只能存储number类型的数据。
 
 同语言的数据类型相比，mapping还有一些其他的含义，mapping不仅告诉ES一个field中是什么类型的值， 它还告诉ES如何索引数据以及数据是否能被搜索到。
 
@@ -29,27 +29,28 @@ ES的mapping非常类似于静态语言中的数据类型：声明一个变量�
 
 如何查看当前数据库里面的mapping（你可以用postman或者浏览器访问以下链接）
 
-	http://127.0.0.1:9200/{index}/{type}/_mapping?pretty
+     kibana请求	GET /product1/_mapping
 
 	返回结果：
 
 		{
-			"product": {
-				"mappings": {
-					"th": {
-						"brand": {
-							"type": "long"
-						},
-						"categories": {
-							"type": "long"
-						},
-						"comprehensive": {
-							"type": "long"
-						}
-					}
-				}
+		  "product1" : {
+		    "mappings" : {
+		      "properties" : {
+			"brand" : {
+			  "type" : "long"
+			},
+			"categories" : {
+			  "type" : "long"
+			},
+			"comprehensive" : {
+			  "type" : "long"
 			}
+		      }
+		    }
+		  }
 		}
+
 
 #### mapping的创建及修改方式
 
@@ -57,56 +58,62 @@ ES的mapping非常类似于静态语言中的数据类型：声明一个变量�
 
 就是直接插入数据，然后ES根据插入数据格式自动识别创建mapping，这种傻瓜式的方式非常简便，适合初学者。
 
-如，创建一个ID为1 的新对象： http://127.0.0.1:9200/product/th/1
+如，创建一个ID为1 的新对象： http://127.0.0.1:9200/product/_doc/1
 
-	    {
-     "title":"test info ",
-      "view":"233333"
-    }
+	kibana请求 PUT /product1/_doc/1
+	{
+	"brand": 333,
+	"categories": 222,
+	"comprehensive": 11
+
+	}
 
 2. 第二种创建方式
 
-{
-  "settings": {
-    "index": {
-      "number_of_shards": "10",  //分10个片
-      "number_of_replicas": "1"  //1个备份
-    }
-  },
-  "mappings": {
+	   kibana请求 PUT product1
 
-				"th": {
-					"brand": {
-						"type": "long"
-					},
-					"categories": {
-						"type": "long"
-					},
-					"comprehensive": {
-						"type": "long"
-					}
+		{ 
+		  "mappings": {
+		      "properties": {
+				"brand": {
+					"type": "integer"
+				},
+				"categories": {
+					"type": "long"
+				},
+				"comprehensive": {
+					"type": "long"
 				}
 			}
+		    }
+
+		}
+
 
 3. 第三种创建方式
 
 已经创建了index（库已经创建），新增一个mapping
 
-URL:http://127.0.0.1:9200/product/th/_mapping/article PUT方式
+URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
 注意，这种创建方式type[表名]是在URL中指定的，BODY部分只是指定了表结构：
 
-		{"th": {
-			"brand": {
-				"type": "long"
-			},
-			"categories": {
-				"type": "long"
-			},
-			"comprehensive": {
-				"type": "long"
-			}
+		kibana请求	PUT /product1/_mapping?pretty
+		{
+
+		"properties": {
+		"brand": {
+			"type": "long"
+		},
+		"categories": {
+			"type": "long"
+		},
+		"comprehensive": {
+			"type": "long"
 		}
+	}
+
+	}
 
 #### mapping的修改
 
@@ -142,12 +149,12 @@ URL:http://127.0.0.1:9200/product/th/_mapping/article PUT方式
 
 		{
 		  "source": {
-		    "index": "test_v1",
+		    "index": "product1",
 		    "type": "item"
 		  },
 
 		  "dest": {
-		    "index": "test_v2",
+		    "index": "prodduct2",
 		    "type": "item"
 
 		  }
