@@ -127,39 +127,42 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
     设置mapping:
 
-    URL:http://127.0.0.1:9200/product2/th/_mapping  POST方式
+    URL:http://127.0.0.1:9200/product2/_doc/_mappings?pretty  POST方式
 
-			{"th": {
-				"brand": {
-					"type": "long"
-				},
-				"categories": {
-					"type": "long"
-				},
-				"comprehensive": {
-					"type": "string"
-				}
-			}
+	POST product2/_doc/mappings?pretty
+	{
+	  "mapping": {
+	    "properties": {
+	      "brands": {
+		"type": "long"
+	      },
+	      "categories": {
+		"type": "long"
+	      },
+	      "comprehensive": {
+		"type": "text"
+	      }
+	    }
+	  }
+	}
+
     
 2. 2，使用reindex api将旧索引数据导入新索引
 
-索引重建后可使用reindex命令迁移数据，如将product数据迁移至product2请求如下：
+索引重建后可使用reindex命令迁移数据，如将product1数据迁移至product2请求如下：
 
-	 	POST _reindex
-
-		{
-		  "source": {
-		    "index": "product1",
-		    "type": "item"
-		  },
-
-		  "dest": {
-		    "index": "prodduct2",
-		    "type": "item"
-
-		  }
-
-		}
+	POST /_reindex
+	{
+	  "source": {
+	    "index": "th_product",
+	    "query": {
+	      "match_all": {}
+	    }
+	  }, 
+	  "dest": {
+	    "index": "th_product2"
+	  }
+	}
 
 3，为新索引添加别名
 
