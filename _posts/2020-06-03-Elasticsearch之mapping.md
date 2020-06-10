@@ -151,40 +151,22 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
 索引重建后可使用reindex命令迁移数据，如将product1数据迁移至product2请求如下：
 
-	POST /_reindex
-	{
-	  "source": {
-	    "index": "th_product",
-	    "query": {
-	      "match_all": {}
-	    }
-	  }, 
-	  "dest": {
-	    "index": "th_product2"
-	  }
-	}
-
-3，为新索引添加别名
-
-为索引添加别名后，在程序代码中可以使用固定别名查询动态的索引名称，然后进行查询，如此索引重建则不会引起程序的变动
-
-添加别名请求：
-
-		POST /_aliases
-
+		POST /_reindex
 		{
-
-		    "actions": [
-		        { "add": {
-
-		            "alias": "new_product",
-		            "index": "product2"
-		        }}
-
-		    ]
-
+		  "source": {
+		    "index": "product1",
+		    "query": {
+		      "match_all": {}
+		    }
+		  }, 
+		  "dest": {
+		    "index": "product2"
+		  }
 		}
+3，删除老索引
 
+	DELETE product1
+	
 将旧索引别名迁移到新索引请求：
 
   
@@ -202,8 +184,45 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
 4. 删除旧索引
 
-添加或迁移别名后删除旧索引：
+		DELETE /product1
+	
+5. 创建索引，索引名为原来的索引名
 
-	DELETE /test_v1
+		PUT product1
+		{
+		  "mappings": {
+		    "properties": {
+		      "brand": {
+			"type": "long"
+		      },
+		      "brands": {
+			"type": "long"
+		      },
+		      "categories": {
+			"type": "long"
+		      },
+		      "comprehensive": {
+			"type": "long"
+		      }
+		    }
+		  }
+		}
 
+6. reindex将数据复制回去
 
+		POST /_reindex
+		{
+		  "source": {
+		    "index": "product2",
+		    "query": {
+		      "match_all": {}
+		    }
+		  }, 
+		  "dest": {
+		    "index": "product1"
+		  }
+		}
+
+7. 删除那个创建的临时索引
+
+		DELETE product2
