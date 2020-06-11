@@ -119,15 +119,15 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
 由于Elasticsearch底层使用了lucene的原因，不支持对mapping的修改，可使用索引重建的方式，步骤如下：
 
-1.  使用正确的mapping新建索引和类型
+1.使用正确的mapping新建索引和类型
 
      如需要将旧索引的itemId字段改为keyword类型，则执行以下请求：。
 
-	    URL:http://127.0.0.1:9200/product2  PUT方式
+		URL:http://127.0.0.1:9200/product2  PUT方式
 
-	    设置mapping:
+		设置mapping:
 
-	    URL:http://127.0.0.1:9200/product2/_doc/_mappings?pretty  POST方式
+		URL:http://127.0.0.1:9200/product2/_doc/_mappings?pretty  POST方式
 
 		kibna 请求 POST product2/_doc/mappings?pretty
 		{
@@ -147,7 +147,7 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		}
 
     
-2.  使用reindex api将旧索引数据导入新索引
+2.使用reindex api将旧索引数据导入新索引
 
 索引重建后可使用reindex命令迁移数据，如将product1数据迁移至product2请求如下：
 
@@ -165,11 +165,11 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		}
 
 
-3.  删除旧索引
+3.删除旧索引
 
 		DELETE /product1
 	
-4.  创建索引，索引名为原来的索引名
+4.创建索引，索引名为原来的索引名
 
 		PUT product1
 		{
@@ -191,7 +191,7 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		  }
 		}
 
-5.  reindex将数据复制回去
+5.reindex将数据复制回去
 
 		POST /_reindex
 		{
@@ -206,6 +206,6 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		  }
 		}
 
-6.  删除那个创建的临时索引
+6.删除那个创建的临时索引
 
 		DELETE product2
