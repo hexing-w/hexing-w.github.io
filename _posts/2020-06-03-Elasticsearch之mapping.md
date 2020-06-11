@@ -129,7 +129,7 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
     URL:http://127.0.0.1:9200/product2/_doc/_mappings?pretty  POST方式
 
-	POST product2/_doc/mappings?pretty
+	kibna 请求 POST product2/_doc/mappings?pretty
 	{
 	  "mapping": {
 	    "properties": {
@@ -147,7 +147,7 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 	}
 
     
-2. 2，使用reindex api将旧索引数据导入新索引
+2. 使用reindex api将旧索引数据导入新索引
 
 索引重建后可使用reindex命令迁移数据，如将product1数据迁移至product2请求如下：
 
@@ -163,30 +163,13 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		    "index": "product2"
 		  }
 		}
-3，删除老索引
 
-	DELETE product1
-	
-将旧索引别名迁移到新索引请求：
 
-  
-
-		POST /_aliases
-
-		{
-		    "actions" : [
-		        { "remove" : { "index" : "product", "alias" : "item_alias" } },
-		        { "add" : { "index" : "product2", "alias" : "new_product" } }
-
-		    ]
-
-		}
-
-4. 删除旧索引
+3. 删除旧索引
 
 		DELETE /product1
 	
-5. 创建索引，索引名为原来的索引名
+4. 创建索引，索引名为原来的索引名
 
 		PUT product1
 		{
@@ -208,7 +191,7 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		  }
 		}
 
-6. reindex将数据复制回去
+5. reindex将数据复制回去
 
 		POST /_reindex
 		{
@@ -223,6 +206,6 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 		  }
 		}
 
-7. 删除那个创建的临时索引
+6. 删除那个创建的临时索引
 
 		DELETE product2
