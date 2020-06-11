@@ -119,7 +119,7 @@ URL:http://127.0.0.1:9200/product1/_mapping？pretty PUT方式
 
 由于Elasticsearch底层使用了lucene的原因，不支持对mapping的修改，可使用索引重建的方式，步骤如下：
 
-1，使用正确的mapping新建索引和类型
+1. 使用正确的mapping新建索引和类型
 
      如需要将旧索引的itemId字段改为keyword类型，则执行以下请求：。
 
