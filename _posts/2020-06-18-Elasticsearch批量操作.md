@@ -54,6 +54,29 @@ doc : 就是一般的文档格式
 
 ### 批量操作bulk例子
 
+增删改查：把所有操作发送到一个节点解析，在由节点分发
+
+kibana请求
+
+	POST _bulk
+	{ "update" : {"_id" : "48", "_type" : "th", "_index" : "th_product2"} }
+	{ "doc" : {"sku" : "48-333333"} }
+	{ "update" : {"_id" : "47", "_type" : "th", "_index" : "th_product2"} }
+	{ "doc" : {"sku" : "47-333333"} }
+	
+php 示例部分代码
+
+	foreach($data as $weight_info){
+            $info["body"][] = [
+                "update"=>['_index' => $arr['index'],
+                '_type' => $arr['type'],
+                '_id'   => $id]];
+            $info["body"][] = [
+                "doc"=>$weight_info
+            ];
+	    }
+	
+	$client->bulk($info);
 
 
 
