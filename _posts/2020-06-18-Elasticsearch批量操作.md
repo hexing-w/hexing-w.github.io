@@ -73,6 +73,7 @@ php 示例部分代码
                 '_id'   => $id]];
             $info["body"][] = [
                 "doc"=>$weight_info
+		"doc_as_upsert"=>true
             ];
 	    }
 	
