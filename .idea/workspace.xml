@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34bb1070-bdcd-4a89-991a-9365d811f5db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/2about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/2about.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +15,13 @@
     <session id="1293671921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,13 +40,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="192" />
+          <entry key="md" value="228" />
           <entry key="php" value="1889" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="192" />
+          <entry key="Markdown" value="228" />
           <entry key="PHP" value="1889" />
         </counts>
       </usages-collector>
@@ -51,23 +54,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/2about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1786">
-                <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+              <first_editor relative-caret-position="228">
+                <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://F:/PHPStudy2016/WWW/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+            <state relative-caret-position="3287">
+              <caret line="173" selection-start-line="173" selection-end-line="173" />
             </state>
           </provider>
         </entry>
@@ -75,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://F:/PHPStudy2016/WWW/testa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="209">
               <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
@@ -94,9 +97,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/2about.md" />
         <option value="F:/PHPStudy2016/WWW/testa.php" />
         <option value="F:/PHPStudy2016/WWW/test.php" />
+        <option value="$PROJECT_DIR$/pages/2about.md" />
       </list>
     </option>
   </component>
@@ -107,8 +110,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="208" />
+    <option name="x" value="117" />
+    <option name="y" value="26" />
     <option name="width" value="1026" />
     <option name="height" value="682" />
   </component>
@@ -117,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,12 +137,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/psr-0" />
+    <property name="last_opened_file_path" value="F:/PHPStudy2016/WWW/hx" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,16 +170,19 @@
       <workItem from="1579070197574" duration="2791000" />
       <workItem from="1583395234838" duration="14734000" />
       <workItem from="1584803071147" duration="10036000" />
+      <workItem from="1586402688834" duration="755000" />
+      <workItem from="1586760547147" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27561000" />
+    <option name="totallyTimeSpent" value="28336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="266" y="208" width="1026" height="682" extended-state="0" />
+    <frame x="117" y="26" width="1026" height="682" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27639753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21118012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,29 +213,29 @@
     <entry file="file://$PROJECT_DIR$/pages/2about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1786">
-            <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+          <first_editor relative-caret-position="228">
+            <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/2archive.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://F:/PHPStudy2016/WWW/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3287">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://F:/PHPStudy2016/WWW/testa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="209">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/PHPStudy2016/WWW/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pages/2archive.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
