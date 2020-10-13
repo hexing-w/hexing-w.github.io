@@ -111,7 +111,6 @@ icon: glyphicon-heart
 * [星星看书](http://m.book.pakchoi.top/)<strong>(2016年5月) </strong>
 	小说网站，二次开发成品，目前还在线上。
 
-* [FW框架](https://github.com/hexing-w/FW)<strong>(2018年2月) </strong>
 
         
 > #### 奖项/证书
